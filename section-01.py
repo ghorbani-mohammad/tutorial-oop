@@ -28,3 +28,7 @@ class Manager(Employee):
 class Manager(Employee):
     def salary(self):
         return super().salary() * 1.1
+
+
+obj = Manager("Zack", 70000, 6)
+print(obj.salary())
