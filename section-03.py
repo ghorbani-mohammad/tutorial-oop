@@ -13,3 +13,6 @@ class Car:
 class Airplane:
     def __str__(self):
         return "Object: Airplane"
+
+
+# Doesn't that feel like a lot of repetition? We should do better!
