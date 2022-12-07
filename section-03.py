@@ -16,3 +16,14 @@ class Airplane(Vehicle):
 
 
 # Doesn't that feel like a lot of repetition? We should do better!
+class Vehicle:
+    def __str__(self) -> str:
+        return f"Object: {self.__class__.__name__}"
+
+
+class Car(Vehicle):
+    pass
+
+
+class Airplane(Vehicle):
+    pass
