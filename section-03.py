@@ -27,3 +27,9 @@ class Car(Vehicle):
 
 class Airplane(Vehicle):
     pass
+
+
+obj = Car()
+print(obj)
+obj = Airplane()
+print(obj)
