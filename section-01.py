@@ -6,3 +6,13 @@ class Employee:
 
     def salary(self):
         return self.base_salary + (self.years * 1000)
+
+
+class Developer(Employee):
+    """Developers are just regular employees
+
+    Args:
+        Employee (Employee): employee
+    """
+
+    pass
