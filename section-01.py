@@ -8,6 +8,12 @@ class Employee:
         return self.base_salary + (self.years * 1000)
 
 
+# We have two type of employees: Developer and Manager
+# Developers are regular employees
+# But managers are higher level employees and get 10 percent more salary
+# So how we should implement this situation?
+
+
 class Developer(Employee):
     """Developers are just regular employees
 
