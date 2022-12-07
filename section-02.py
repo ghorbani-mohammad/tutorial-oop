@@ -27,6 +27,8 @@ class Manager(Employee):
 
 mary = Developer("Mary Smith", 70_000, 6)
 print(mary.salary())
+# Output: 76000
 
 jane = Manager("Jane Sanchez", 70_000, 6)
 print(jane.salary())
+# Output: 86900.0
