@@ -35,3 +35,7 @@ print(obj)
 obj = Airplane()
 print(obj)
 # Output: Object: Airplane
+
+
+# Notice the line 21, self dynamically has different shapes Car and Airplane
+# Having different shapes in runtime called polymorphism
