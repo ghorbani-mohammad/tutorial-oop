@@ -15,10 +15,12 @@ class Employee:
 
 
 class Developer(Employee):
-    """Developers are just regular employees
-
-    Args:
-        Employee (Employee): employee
-    """
-
     pass
+
+
+# Naive solution for Manager class is:
+
+
+class Manager(Employee):
+    def salary(self):
+        return (self.base_salary + (self.years * 1000)) * 1.1
