@@ -8,3 +8,8 @@ class Vehicle:
 class Car:
     def __str__(self) -> str:
         return "Object: Car"
+
+
+class Airplane:
+    def __str__(self) -> str:
+        return "Object: Airplane"
