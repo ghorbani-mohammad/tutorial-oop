@@ -5,12 +5,12 @@ class Vehicle:
         return "Object: Vehicle"
 
 
-class Car:
+class Car(Vehicle):
     def __str__(self):
         return "Object: Car"
 
 
-class Airplane:
+class Airplane(Vehicle):
     def __str__(self):
         return "Object: Airplane"
 
