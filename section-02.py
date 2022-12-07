@@ -13,3 +13,14 @@ class Employee:
     def salary(self):
         return self.base_salary + (self.years * self.BONUS_PER_YEAR)
 
+
+class Developer(Employee):
+    pass
+
+
+class Manager(Employee):
+    BONUS_PER_YEAR = 1500
+
+    def salary(self):
+        return super().salary() * 1.1
+
