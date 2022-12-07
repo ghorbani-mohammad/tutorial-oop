@@ -19,8 +19,12 @@ class Developer(Employee):
 
 
 # Naive solution for Manager class is:
-
-
 class Manager(Employee):
     def salary(self):
         return (self.base_salary + (self.years * 1000)) * 1.1
+
+
+# But we can use more robust way as follow:
+class Manager(Employee):
+    def salary(self):
+        return super().salary() * 1.1
