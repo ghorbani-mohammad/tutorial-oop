@@ -24,3 +24,9 @@ class Manager(Employee):
     def salary(self):
         return super().salary() * 1.1
 
+
+mary = Developer("Mary Smith", 70_000, 6)
+print(mary.salary())
+
+jane = Manager("Jane Sanchez", 70_000, 6)
+print(jane.salary())
