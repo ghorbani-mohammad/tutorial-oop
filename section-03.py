@@ -31,5 +31,7 @@ class Airplane(Vehicle):
 
 obj = Car()
 print(obj)
+# Output: Object: Car
 obj = Airplane()
 print(obj)
+# Output: Object: Airplane
