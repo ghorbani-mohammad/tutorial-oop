@@ -40,5 +40,8 @@ print(obj)
 # Notice the line 21, self dynamically has different shapes Car and Airplane
 # Having different shapes in runtime called polymorphism
 
+
 # Another definition of polymorphism:
 # Polymorphism is an ability (in OOP) to use a common interface for multiple forms (data types).
+# Suppose, we need to color a shape, there are multiple shape options (rectangle, square, circle).
+# However we could use the same method to color any shape. This concept is called Polymorphism.
