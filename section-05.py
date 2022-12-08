@@ -19,3 +19,8 @@ class Flyable:
 
     def fly(self):
         print("Flying")
+
+
+# The __init__ of the Car and Flyable classes accept a different number of parameters.
+# If the FlyingCar class inherits from the Car and Flyable classes, its __init__ method needs to
+# call the right __init__ method specified in the method order resolution __mro__ of the FlyingCar class.
