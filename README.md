@@ -4,4 +4,4 @@
 - **Section-01**: about super and overriding methods
 - **Section-02**: using polymorphism, super, and overriding
 - **Section-03**: polymorphism
-- **Section-04**: multi inheritance
+- **Section-04**: complex multi inheritance example
