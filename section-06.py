@@ -31,3 +31,6 @@ c.sell()
 #   Selling Price: 900
 #   Selling Price: 900
 #   Selling Price: 1000
+
+
+# Note that you can read the private variables but you can't write them directly
