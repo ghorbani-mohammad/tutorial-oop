@@ -34,3 +34,9 @@ class FlyingCar(Flyable, Car):
 
     def start(self):
         return super().start()
+
+
+# The super().__init__() calls the __init__ of the FlyingCar class.
+# Therefore, you need to pass the wing argument to the __init__ method.
+# Because the FlyingCar class cannot access the __init__ method of the Car class,
+# you need to initialize the door and wheel attributes individually.
