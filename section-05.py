@@ -8,3 +8,14 @@ class Car:
 
     def go(self):
         print("Going")
+
+
+class Flyable:
+    def __init__(self, wing):
+        self.wing = wing
+
+    def start(self):
+        print("Start the Flyable object")
+
+    def fly(self):
+        print("Flying")
