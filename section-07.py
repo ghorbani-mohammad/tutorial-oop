@@ -30,3 +30,9 @@ print("Accessing protected member of obj2: ", obj2._a)
 #   Calling modified protected member outside class:  3
 #   Accessing protected member of obj1:  3
 #   Accessing protected member of obj2:  2
+
+
+class Base:
+    def __init__(self):
+        self.a = "public_member"
+        self.__c = "private_member"
