@@ -36,3 +36,9 @@ class Base:
     def __init__(self):
         self.a = "public_member"
         self.__c = "private_member"
+
+
+class Derived(Base):
+    def __init__(self):
+        super().__init__()
+        print("Calling private member of base class: ", self.__c)
