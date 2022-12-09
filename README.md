@@ -7,3 +7,4 @@
 - **Section-04**: complex multi inheritance example
 - **Section-05**: multi inheritance and super function
 - **Section-06**: encapsulation
+- **Section-07**: protected and private members
