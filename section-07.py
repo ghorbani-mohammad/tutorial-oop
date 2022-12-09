@@ -23,3 +23,10 @@ print("Accessing protected member of obj1: ", obj1._a)
 
 # Accessing the protected variable outside
 print("Accessing protected member of obj2: ", obj2._a)
+
+
+# Output:
+#   Calling protected member of base class:  2
+#   Calling modified protected member outside class:  3
+#   Accessing protected member of obj1:  3
+#   Accessing protected member of obj2:  2
