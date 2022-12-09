@@ -46,3 +46,9 @@ class Derived(Base):
 
 obj1 = Base()
 print(obj1.a)
+
+
+# Uncommenting below will raise an AttributeError
+obj2 = Derived()
+# Output:
+#   AttributeError: 'Derived' object has no attribute '_Derived__c'
