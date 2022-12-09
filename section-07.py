@@ -5,8 +5,11 @@ class Base:
 
 class Derived(Base):
     def __init__(self):
-        Base.__init__(self)
+        super().__init__()
         print("Calling protected member of base class: ", self._a)
 
         self._a = 3
         print("Calling modified protected member outside class: ", self._a)
+
+
+obj1 = Derived()
