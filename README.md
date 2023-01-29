@@ -1,4 +1,5 @@
 ### Practicing OOP in Python
+Mastering OOP design patterns by exercising!
 
 #### List of Contents:
 - **Section-01**: about super and overriding methods
